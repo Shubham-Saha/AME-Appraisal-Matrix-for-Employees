@@ -40,7 +40,7 @@ high-dimensional space to separate given data into classes. The margin
 between the 2 classes represents the longest distance between closest
 data points of those classes. The larger the margin, the lower is the
 generalization error of the classifier.
-                           Working procedure & Implementation of AME
+                      Working procedure & Implementation of AME
 As it is mentioned before that AME is a proposed work. But the prototype which
 is now working is build with machine learning’s SVM algorithm. This is
 implemented in Python Programming Language. Here the dataset which I
