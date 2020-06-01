@@ -40,11 +40,11 @@ print(f1_score(y_test, predictions))
 print(accuracy_score(y_test, predictions))
 
 def yesorno(co,op,i,tp,rr,cd,nap):
-    if(cls_svc.predict([[co,op,i,tp,rr,cd,nap]]))!=1:
-        print('You\'re not appraised!')
-    else:
-        print('You\'re appraised!')
 
+    if(cls_svc.predict([[co,op,i,tp,rr,cd,nap]]))==1:
+        print('Congratulations. You\'re appraised!')
+    else:
+        print('Sorry to Say. You\'re not appraised!')
 
 
 while(1):
